@@ -1,0 +1,25 @@
+{
+  "name": "jekyll-starter-three",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/noesya/jekyll-starter-three",
+  "author": "Noesya <alex@noesya.coop>",
+  "license": "MIT",
+  "scripts": {
+    "webpack": "./node_modules/.bin/webpack --watch",
+    "build": "./node_modules/.bin/webpack | bundle exec jekyll build",
+    "start": "./node_modules/.bin/webpack --watch | bundle exec jekyll serve --livereload"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.15.0",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "signals": "^1.0.0",
+    "three": "^0.130.1"
+  }
+}
