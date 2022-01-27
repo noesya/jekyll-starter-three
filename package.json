@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "signals": "^1.0.0",
-    "three": "^0.130.1"
+    "three": "^0.137.0"
   }
 }
